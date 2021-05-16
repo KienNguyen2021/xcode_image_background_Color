@@ -13,6 +13,7 @@
 		2153AD0A2650E8A000076D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2153AD082650E8A000076D8B /* Main.storyboard */; };
 		2153AD0C2650E8A100076D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2153AD0B2650E8A100076D8B /* Assets.xcassets */; };
 		2153AD0F2650E8A100076D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2153AD0D2650E8A100076D8B /* LaunchScreen.storyboard */; };
+		21B68F3B26517687004129FC /* hinh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21B68F3A26517687004129FC /* hinh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2153AD0B2650E8A100076D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2153AD0E2650E8A100076D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2153AD102650E8A100076D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B68F3A26517687004129FC /* hinh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinh.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		2153AD012650E8A000076D8B /* buoi2 */ = {
 			isa = PBXGroup;
 			children = (
+				2153AD162650F2BC00076D8B /* hinh */,
 				2153AD022650E8A000076D8B /* AppDelegate.swift */,
 				2153AD042650E8A000076D8B /* SceneDelegate.swift */,
 				2153AD062650E8A000076D8B /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				2153AD102650E8A100076D8B /* Info.plist */,
 			);
 			path = buoi2;
+			sourceTree = "<group>";
+		};
+		2153AD162650F2BC00076D8B /* hinh */ = {
+			isa = PBXGroup;
+			children = (
+				21B68F3A26517687004129FC /* hinh.jpg */,
+			);
+			path = hinh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				2153AD0F2650E8A100076D8B /* LaunchScreen.storyboard in Resources */,
 				2153AD0C2650E8A100076D8B /* Assets.xcassets in Resources */,
+				21B68F3B26517687004129FC /* hinh.jpg in Resources */,
 				2153AD0A2650E8A000076D8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
